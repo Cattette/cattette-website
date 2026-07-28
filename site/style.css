@@ -3,7 +3,7 @@ body {
   font-family: serif;
   color: black;
   width: 75%;
-  max-width: 1000px;
+  max-width: 1090px;
   min-width: 400px;
   margin: auto;
   margin-top: 10px;
@@ -49,6 +49,7 @@ div.detailed-gallery-item img {
   height: 160px;
 }
 div.detailed-gallery-item div.label {
+  font-weight: bold;
   padding-top: 5px;
   text-align: center;
 }

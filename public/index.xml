@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Home on My New Hugo Project</title>
-		<link>http://localhost:1313/</link>
+		<link>http://cattette.w10.site/</link>
 		<description>Recent content in Home on My New Hugo Project</description>
 		<generator>Hugo</generator>
 		<language>en</language>
@@ -10,22 +10,29 @@
 		
 		
 		
-			<lastBuildDate>Wed, 29 Jul 2026 19:25:12 +0200</lastBuildDate>
+			<lastBuildDate>Thu, 30 Jul 2026 01:39:09 +0200</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="http://cattette.w10.site/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>My Software Environment</title>
+				<link>http://cattette.w10.site/misc/software-env/</link>
+				<pubDate>Thu, 30 Jul 2026 01:39:09 +0200</pubDate>
+				<guid>http://cattette.w10.site/misc/software-env/</guid>
+				<description>&lt;p&gt;The normal environment most of us are expected to navigate our lives through is&#xA;completely unusable. Everything wants to be a pop-up, everything wants to fingerprint you,&#xA;everything wants to track you, and they all want to do it on your CPU.&lt;/p&gt;&#xA;&lt;p&gt;Im no software engineer but I know enough about computer files to recognize that doing simple&#xA;tasks with a 4.0 KiB text file or searching for a file in a small directory probably shouldn&amp;rsquo;t&#xA;make your entire computer buffer for half a second.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>Maps</title>
-				<link>http://localhost:1313/maps/</link>
+				<link>http://cattette.w10.site/maps/</link>
 				<pubDate>Wed, 29 Jul 2026 19:25:12 +0200</pubDate>
-				<guid>http://localhost:1313/maps/</guid>
+				<guid>http://cattette.w10.site/maps/</guid>
 				<description>&lt;p&gt;This is a gallery of many of the maps I&amp;rsquo;ve created throughout the years. Digital cartography has unified my special interests in history, design and geography.&lt;/p&gt;&#xA;&lt;p&gt;The thumbnail of every entry here is a hyperlink leading to a full-resolution image of the map.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>About</title>
-				<link>http://localhost:1313/about/</link>
+				<link>http://cattette.w10.site/about/</link>
 				<pubDate>Wed, 29 Jul 2026 17:59:16 +0200</pubDate>
-				<guid>http://localhost:1313/about/</guid>
-				<description>&lt;h2 id=&#34;my-interests&#34;&gt;my interests&lt;/h2&gt;&#xA;&lt;h3 id=&#34;geography&#34;&gt;geography&lt;/h3&gt;&#xA;&lt;h3 id=&#34;photography&#34;&gt;photography&lt;/h3&gt;&#xA;&lt;h3 id=&#34;computers&#34;&gt;computers&lt;/h3&gt;&#xA;&lt;h3 id=&#34;music&#34;&gt;music&lt;/h3&gt;&#xA;&lt;h3 id=&#34;video-games&#34;&gt;video games&lt;/h3&gt;</description>
+				<guid>http://cattette.w10.site/about/</guid>
+				<description>&lt;h2 id=&#34;about-this-site&#34;&gt;About this site&lt;/h2&gt;&#xA;&lt;p&gt;This website serves as my personal weblog, where I share my artwork and other things that&#xA;interest me. It replaces my previous presence on Reddit, Twitter and DeviantArt, as I have grown&#xA;increasingly cynical about the direction and overall state of those (and many other!) platforms&#xA;over the years.&lt;/p&gt;&#xA;&lt;p&gt;I started building this website with no web development experience. I first wrote everything as&#xA;individual HTML files, but that quickly became tedious. I then tried automating the process&#xA;with Bash scripts, &lt;a href=&#34;https://pandoc.org/&#34;&gt;Pandoc&lt;/a&gt;, and Python, only to find those solutions growing&#xA;just as cumbersome.&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

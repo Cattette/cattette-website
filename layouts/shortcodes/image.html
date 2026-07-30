@@ -1,0 +1,26 @@
+<!-- this shortcode exists to optimize image thumbnails for pages -->
+<!-- define our vars -->
+{{ $src := .Get "src" }}
+{{ $alt := .Get "alt" | default "" }}
+{{ $width := .Get "width" | default "260" }}
+{{ $class := .Get "class" | default "" }}
+{{ $caption := .Get "caption" | default "" }}
+<!-- find src image -->
+{{ $img := .Page.Resources.GetMatch $src }}
+
+<!-- produce a thumbnail and a large version of the src image -->
+{{ $thumb := $img.Resize (printf "%sx jpeg q80" $width) }}
+{{ $large := $img.Resize "1024x png" }}
+
+<figure class ="{{ $class }}" >
+    <a href="{{ $large.RelPermalink }}" target="_blank">
+        <img
+            src="{{ $thumb.RelPermalink }}"
+            width="{{ $thumb.Width }}"
+            height="{{ $thumb.Height }}"
+            alt="{{ $alt }}"
+            loading="eager"
+        >
+    </a>
+    <figcaption>{{ $caption }}</figcaption>
+</figure>

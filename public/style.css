@@ -8,10 +8,42 @@ body {
   margin: auto;
   margin-top: 10px;
   margin-bottom: 10px;
+  font-family: serif;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+.img-right-justified {
+  float: right;
+}
+
+figure {
+  padding: 10px;
+  border: 3px double;
+}
+
+figure h4 {
+  font-weight: normal;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+figure img {
+  border: 1px solid lightgrey;
+}
+
+hr {
+  border: 1px solid;
+}
+
+li {
+  margin-bottom: 10px;
 }
 
 h1, h2, h3 {
-  margin-top: 20px;
+  margin-top: 0px;
   margin-bottom: 10px;
   text-transform: capitalize;
 }
@@ -20,6 +52,7 @@ h1 {
   font-size: 28pt;
   font-style: italic;
   font-weight: normal;
+  /* text-align: center; */
 }
 
 h2 {  
@@ -38,6 +71,11 @@ p {
   justify-content: center;
   display: flex;
 }
+
+.bar-li {
+  margin-bottom: 0px;
+}
+
 /* add vertical separator lines between items */
 .bar-li:not(:last-child) {
   margin-right: 10px;

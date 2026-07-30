@@ -1,3 +1,5 @@
 baseURL = 'http://cattette.w10.site/'
 locale = 'en'
 title = 'My New Hugo Project'
+
+pluralizeListTitles = false

@@ -3,3 +3,8 @@ locale = 'en'
 title = 'My New Hugo Project'
 
 pluralizeListTitles = false
+
+[markup.tableOfContents]
+startLevel = 2
+endLevel = 6
+ordered = true

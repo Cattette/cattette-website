@@ -11,7 +11,7 @@ The normal environment most of us are expected to navigate our lives through is
 completely unusable. Everything wants to be a pop-up, everything wants to fingerprint you,
 everything wants to track you, and they all want to do it on your CPU.
 
-Im no software engineer but I know enough about computer files to recognize that doing simple
+I'm no software engineer but I know enough about computer files to recognize that doing simple
 tasks with a 4.0 KiB text file or searching for a file in a small directory probably shouldn't
 make your entire computer buffer for half a second.
 

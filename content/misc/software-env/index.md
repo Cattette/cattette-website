@@ -1,6 +1,6 @@
 ---
 date: '2026-07-30T01:39:09+02:00'
-draft: false
+draft: true
 title: 'My Software Environment'
 cascade:
   build:

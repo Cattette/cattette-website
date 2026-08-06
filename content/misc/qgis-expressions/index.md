@@ -1,25 +1,26 @@
 ---
-date: '2026-07-31T15:55:49+02:00'
+date: '2026-08-03T15:55:49+02:00'
 draft: false
-title: 'Expressions and Variables in QGIS'
+title: 'Expressions and variables in QGIS'
+description: 'This article discusses the basics of expressions and variables in QGIS'
 ---
 
 QGIS is a data-focused program. This means that the data forms, layers,
 geometries, and bitmaps it can process all can contain a lot of data. This
-differs from other potential mapping software such as Inkscape, Photoshop, or Adobe Illustrator
-where geometries and pixels don't contain any more information than what they represent: what you
-see is what you get.
+differs from other potential mapping software such as Inkscape, Photoshop, or
+Adobe Illustrator where geometries and pixels don't contain any more information
+than what they represent visually: what you see is what you get.
 
 In QGIS a line layer representing rivers may contain a lot more information
 than what just meets the eye. This layer stores information in a attribute table
 where each row represent a geometry/feature and each column represents a piece
 of information about said geometry.
 
-*Example of a attribute table for a river layer with two geometries and two columns*
-|name (string)|size|
+*Example of a attribute table for a populated places layer with two geometries and two columns*
+|name|population|
 |---|---|
-|Danube|5
-|Sava|2
+|Cairo|9801536
+|Asyut|501033
 
 Expressions and variables are what elevate QGIS above other mapping software.
 These tools allows us to do a ton of cool stuff through geoprocessing
@@ -126,8 +127,9 @@ between some previewed values to see how the expression affects that feature:
 You may want to play around with the exponent to get the perfect results
 depending on your data and map scale.
 
-You can apply the same principle in virtually any field in QGIS. We can make label sizes
-vary by population, we can make river width vary by size or significance, 
+You can apply the same principle in virtually any field in QGIS. We can
+make label sizes vary by population, we can make river width vary by size or
+significance,
 
 
 {{< image
@@ -138,3 +140,51 @@ vary by population, we can make river width vary by size or significance,
 >}}
 
 ## Variables
+
+QGIS has two main types of variables, global and project. Global variables
+store information about the current version, the current logged-in user, and
+locale information. Project variables contain information that pertain to the
+project, such as the projection, creation time, and the project unit (meters
+usually meters or degrees.)
+
+You can find information about both types of variables by navigatin to
+'Project > Propertie (ctrl + shift + p) > Variables'. Global variables can not
+be directly modified or appended, but you can write your own project variables.
+
+This is useful for changing all the values you set in a project from a single
+place instead of going into the symbology panel of each layer or menu everytime
+you want to try a new look.
+
+### Some project variables I like to set
+* `stroke-weight`: A float representing the stroke weight I use on rivers,
+coasts, roads and everything I want to have the same stroke weight. You can also
+use multiple variables to define several different stroke weights (thin, normal,
+bold).
+* `serif` and `sans-serif`: Strings containing the names of the primary fonts
+of the project.
+
+This is how you set a value of any field to a project variable:
+
+{{< image
+    src="setting-variables.avif"
+    caption="Setting the value of a field to a variable"
+    alt="Setting the value of a field to a variabe: 'Data override > Variable > your-variable'"
+    class="img-centered"
+>}}
+
+If you now inspect the expression editor you'll see that it has been set to
+`@serif`, `@` creates a link to the variable name.
+
+### Color variables
+
+While you can use set the value of project variables to color hex values
+and use them in color fields, there is a much simpler solution. In the same
+'Project Properties' we created our variables in theres a separate tab
+named 'Colors'. Here you can create named colors unique to your project with
+the same useful features of project variables.
+
+These are however assigned in a slightly different place than project variables.
+Create and label your color, then navigate to a color fied and press the
+small arrow in the right of the color preview, you'll find your color under
+the 'Project Colors' header. As with normal variables, edits to these color
+variables will effect all fields that have been linked to that variable.

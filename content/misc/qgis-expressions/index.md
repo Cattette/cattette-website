@@ -3,6 +3,7 @@ date: '2026-08-03T15:55:49+02:00'
 draft: false
 title: 'Expressions and variables in QGIS'
 description: 'This article discusses the basics of expressions and variables in QGIS'
+thumbnail: 'fractional-resize.avif'
 ---
 
 QGIS is a data-focused program. This means that the data forms, layers,
@@ -45,7 +46,7 @@ with the expression builder. Navigate to any field you want to control with a
 expression and click the 'Data defined override' icon always situated to the
 right of the field, navigate down to the 'Expression > Edit...' button.
 
- {{< image
+{{< image
     src="open-expression-builder.avif"
     caption="Click here to open the expression builder"
     alt="Guide to find the expression builder button. It is located under a menu to the right of the input field"

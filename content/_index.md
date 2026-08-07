@@ -4,7 +4,3 @@ draft = false
 title = 'Home'
 +++
 
-## About me
-
-Welcome to my personal website. My name is cattette, and I am a land surveyor living in Sweden.
-

@@ -2,9 +2,7 @@
 date: '2026-07-30T01:39:09+02:00'
 draft: true
 title: 'My Software Environment'
-cascade:
-  build:
-    publishResources: false
+thumbnail: ''
 ---
 
 The normal environment most of us are expected to navigate our lives through is

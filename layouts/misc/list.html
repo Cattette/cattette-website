@@ -1,0 +1,19 @@
+{{ define "main" }}
+  <article>
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+    <div style="display: flex; flex-wrap: wrap; max-width: 45em;">
+      {{ range .Pages }}
+        <div class="misc-post-thumb">
+        <!-- <img style="border: solid 1px;" src="{{.Permalink}}{{ .Params.thumbnail }}" alt="article thumbnail" loading="eager" width="256" height="256"> -->
+        <!-- <br> -->
+        <h2 class="post-thumb-h2"><a href="{{.Permalink}}">{{ .Title }}</a></h2>
+        <span>{{.Date.Format "2006-01-02"}}</span>
+        <br>
+        <span>{{.Description}}</span>
+        </div>
+      {{end}}
+    </div>
+    <span></span>
+{{.Description}}  </article>
+{{ end }}

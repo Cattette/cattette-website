@@ -1,0 +1,17 @@
+<!-- this shortcode exists to add plain images to documents -->
+<!-- define our vars -->
+{{ $src := .Get "src" }}
+{{ $alt := .Get "alt" | default "" }}
+{{ $class := .Get "class" | default "" }}
+<!-- find src image -->
+{{ $img := .Page.Resources.GetMatch $src }}
+
+<!-- produce a thumbnail and a large version of the src image -->
+<img
+    class="{{ $class }}"
+    width="{{ $img.Width}}"
+    height="{{ $img.Height}}"
+    src="{{ $img.RelPermalink }}"
+    alt="{{ $alt }}"
+    loading="eager"
+>

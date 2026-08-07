@@ -1,31 +1,53 @@
+p, h1, h2, h3, h4, h5, span, div, li, figcaption, summary, th, tr, code, a{
+  font-family: "EB Garamond", "Georgia", serif;
+  font-size: 1.6rem;
+}
+
+figcaption {
+  font-style: italic;
+}
+
+h1, h2, h3, h4, h5 {
+  text-transform: capitalize;
+}
+
+h1 {
+  font-size: 3rem;
+  /* font-style: italic; */
+  font-weight: bold;
+  /* text-align: center; */
+}
+
+h2, h2 a {  
+  font-size: 2rem;
+  font-weight: normal;
+}
+
 body {
   background-color: white;
-  font-family: serif;
   color: black;
-  width: 75%;
-  max-width: 45em;
-  min-width: 30em;
+  width: 45rem;
   margin: auto;
   margin-top: 10px;
   margin-bottom: 10px;
-  font-family: serif;
 }
 
 #TableOfContents {
 }
 
 code {
-  /* idk why this fixes sizing issues lol */
-  font-family: monospace, monospace; 
   border: 1px solid;
-  padding: 0 0.25em;
+  padding: 0 0.2rem;
 }
 
 pre code {
+  /* idk why this fixes sizing issues lol */
+  font-family: monospace, monospace; 
+  font-size: 1.2rem;
   padding: 5px;
   display: block;
   width: 100%;
-  margin: 0 auto;
+  overflow: auto;
 }
 
 table, th, td {
@@ -49,13 +71,13 @@ header {
 }
 
 .img-centered {
-  margin-left: auto;
-  margin-right: auto;
+  display: block;
+  margin: auto;
 }
 
 figure {
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
   padding: 10px;
   border: 3px double;
 }
@@ -78,27 +100,9 @@ li {
   margin-bottom: 10px;
 }
 
-h1, h2, h3 {
-  /* margin-top: 10px; */
-  /* margin-bottom: 10px; */
-  text-transform: capitalize;
-}
-
-h1 {
-  font-size: 28pt;
-  font-style: italic;
-  font-weight: normal;
-  /* text-align: center; */
-}
-
-h2 {  
-  font-size: 20pt;
-  font-weight: normal;
-}
-
 p {
-  margin-top: 1em;
-  margin-bottom: 0px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .bar-ul {
@@ -119,6 +123,7 @@ p {
   padding-right: 10px;
   border-right: 1px solid;
 }
+
 div.detailed-gallery {
   display: flex;
   flex-wrap: wrap;
@@ -127,8 +132,8 @@ div.detailed-gallery {
 div.detailed-gallery-item {
   border: 3px double black;
   padding: 5px;
-  margin: 3px;
-  width: 160px;
+  margin: 0.5%;
+  width: 30%;
 }
 div.detailed-gallery-item img {
   border: 1px solid black;
@@ -139,4 +144,12 @@ div.detailed-gallery-item div.label {
   font-weight: bold;
   padding-top: 5px;
   text-align: center;
+}
+
+.misc-post-thumb {
+  width: 50%;
+}
+
+.misc-date {
+  margin-bottom: 1rem;
 }

@@ -4,7 +4,7 @@ draft = false
 title = 'About'
 +++
 
-## About this site
+## This site
 
 This website serves as my personal weblog, where I share my artwork and other things that
 interest me. It replaces my previous presence on Reddit, Twitter and DeviantArt, as I have grown
@@ -26,10 +26,10 @@ large storefronts. You can find the Git repo for this entire project
 This website uses no JavaScript, no cookies, and no trackers. It does, however, use HTML5.
 I've gathered that this is a grave sin according some Indieweb purists out there but
 I cannot be bothered to pore over documentation and compatibility tables to see if a given
-semantic is supported by the final NCSA Mosaic release. Besides, I think some semantics here
+semantic is supported by the final Netscape release. Besides, I think some semantics here
 and there are neat.
 
-## my interests
+<!-- ## my interests -->
 
 <!-- ### history -->
 

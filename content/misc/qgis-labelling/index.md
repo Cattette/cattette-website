@@ -27,10 +27,11 @@ activating labels, and zooming out.
 
 ## Manual labelling
 
-Perhaps this method of labelling is more accurately described as semi-manual labeling.
-In software such as Photoshop and Inkscape the user is, after all, expected to manually create
-text boxes and type out all place names one-after-one. Not so in QGIS where that data already
-exists to be tapped into by the label symbology. 
+This method of labelling is perhaps more accurately described as semi-manual
+labeling. In software such as Photoshop and Inkscape the user is, after
+all, expected to manually create text boxes and type out all place names
+one-after-one. Never so in QGIS where labelling data already probably exists to
+be tapped into by the label symbology.
 
 When working with point labelling in QGIS I like to disable most features of the
 labelling engine which you can do in two simple steps:

@@ -4,5 +4,8 @@
   <meta name="description" content="{{ .Description }}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/avif" href="/img/icon.avif">
-  <link rel="stylesheet" href="/min-style.css">
+  {{ with resources.Get "css/astyle.css" }}
+    {{ $css := . | minify | fingerprint "sha256" }}
+    <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+  {{ end }}
 </head>

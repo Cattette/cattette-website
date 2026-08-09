@@ -1,0 +1,6 @@
+<!-- this code hijacks only the headings made from markdown to add a link to them -->
+<!-- big headings are typically created directly in html by templates so this wont affect those -->
+<h{{ .Level }} id="{{ .Anchor }}">
+<a href="#{{ .Anchor }}" class="header-anchor">#</a>
+{{.Text}}
+</h{{ .Level }}>

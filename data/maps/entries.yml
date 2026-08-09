@@ -1,49 +1,49 @@
 dhofar:
   title: "Dhofar"
   desc: "A fictional emirate based in the remote southern Omani city of Salalah."
-  licence: "CC BY 4.0"
-  licence_url: "https://creativecommons.org/licenses/by/4.0/"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0/"
   img: "dhofar"
 
 galhat:
   title: Galhat
   desc: "Map of a small fictional country sprouting from the medieval trading port of Galhat."
-  licence: CC BY 4.0
-  licence_url: "https://creativecommons.org/licenses/by/4.0/"
+  licence: CC BY-SA 4.0
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0/"
   img: galhat
 iberia-ecclesiastical:
   title: "Ecclesiastical Iberia"
   desc: "A stylized map of the Catholic Curch hierarchy in pre-islamic Iberia in latin."
-  licence: "CC BY 4.0"
-  licence_url: "https://creativecommons.org/licenses/by/4.0/"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0/"
   img: "iberia-ecclesiastical"
 macedonia:
   title: "Ancient Macedonia"
   desc: "A stylistic pictoral map of the ancient kingdom of Macedonia."
-  licence: "CC BY 4.0"
-  licence_url: "https://creativecommons.org/licenses/by/4.0/"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0/"
   img: "macedonia"
 midian:
   title: Midian
   desc: "The ancient nation of Midian re-imagined in a early 20th-century setting"
-  licence: CC BY 4.0
-  licence_url: "https://creativecommons.org/licenses/by/4.0/"
+  licence: CC BY-SA 4.0
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0/"
   img: midian
 palestine:
   title: Palestine
   desc: "Map of the land of Palestine based on reconstructed historical records."
   licence: CC0 1.0
-  licence_url: "https://creativecommons.org/publicdomain/zero/1.0/"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0/"
   img: palestine
 paphlagonia:
   title: "Paphlagonia"
   desc: "A speculative map of the Palmer Peninsula after major global-warming induced climate shifts."
-  licence: "CC BY 4.0"
-  licence_url: "https://creativecommons.org/licenses/by/4.0/"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0/"
   img: "paphlagonia"
 phoenicia:
   title: Phoenicia
   desc: This is a map of the Phoenician homeland, a influential civilization of the ancient mediterranean world.
-  licence: CC BY 4.0
-  licence_url: "https://creativecommons.org/licenses/by/4.0/"
+  licence: CC BY-SA 4.0
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0/"
   img: phoenicia

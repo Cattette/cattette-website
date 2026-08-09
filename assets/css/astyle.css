@@ -1,4 +1,4 @@
-p, h1, h2, h3, h4, h5, span, div, li, figcaption, summary, th, tr, code, a {
+p, h1, h2, h3, h4, h5, span, div, li, figcaption, summary, th, tr, a, blockquote {
   font-family: "EB Garamond", "Garamond", "Gelasio", "Georgia", serif;
   font-size: 1.5rem;
 }
@@ -12,15 +12,24 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2.3rem;
   /* font-style: italic; */
   font-weight: bold;
   /* text-align: center; */
 }
 
-h2, h2 a {  
-  font-size: 2rem;
+h2, h2 a {
+  font-size: 1.8rem;
   font-weight: normal;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+h3, h3 a {
+  font-size: 1.6rem;
+  font-weight: normal;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 body {
@@ -38,12 +47,11 @@ body {
 code {
   border: 1px solid;
   padding: 0 0.2rem;
+  font-family: "Iosevka Nerd Font", "Iosevka", monospace; 
+  font-size: 1.2rem;
 }
 
 pre code {
-  /* idk why this fixes sizing issues lol */
-  font-family: monospace, monospace; 
-  font-size: 1.2rem;
   padding: 5px;
   display: block;
   width: 100%;
@@ -152,4 +160,34 @@ div.detailed-gallery-item div.label {
 
 .misc-date {
   margin-bottom: 1rem;
+}
+
+.header-anchor {
+  text-decoration: none;
+}
+
+/* header numbers */ 
+/* body { counter-reset: h2 h3 h4 h5 h6; } */
+
+/* h2:before { */
+  /* counter-reset: h3 h4 h5 h6; */
+  /* counter-increment: h2; */
+  /* content: counter(h2) ". "; */
+/* } */
+/* h3:before { */
+  /* counter-reset: h4 h5 h6; */
+  /* counter-increment: h3; */
+  /* content: counter(h2) ". " counter(h3) ". "; */
+/* } */
+/* h4:before { */
+  /* counter-reset: h5 h6; */
+  /* counter-increment: h4; */
+  /* content: counter(h2) ". " counter(h3) ". " counter(h4) ". "; */
+/* } */
+
+
+.blockquote-centered {
+  width: 20rem;
+  margin: 1rem auto;
+  text-align: center;
 }

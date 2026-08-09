@@ -29,6 +29,31 @@ I cannot be bothered to pore over documentation and compatibility tables to see 
 semantic is supported by the final Netscape release. Besides, I think some semantics here
 and there are neat.
 
+### Fonts
+
+This website does not force your browser to download a font because I consider that rude. 
+I'm instead using the [web safe](https://www.w3schools.com/cssref/css_websafe_fonts.php)
+font of Garamond. Georgia or it's open source cousin [Gelasio](https://github.com/sorkintype/Gelasio)
+are used if you do not have Garamond, and your default serif font takes over if all else fails.
+
+I do not follow [the view](https://seirdy.one/posts/2020/11/23/website-best-practices/#about-fonts)
+that developer-set fonts and font sizes are, as a rule, inappropriate. Thought out typography is generally
+far too sensetive for default system fonts to just be slotted in.
+
+This website also overrides the default font sizes because whoever came up with
+the idea that h1 should be over twice as big as the default body text should...
+well, whoever they are they're probably not around anymore. Furthermore,
+the default web body text has simply not kept up with modern screens, and so we're
+changing that as well.
+
+[Iosevka](https://github.com/be5invis/iosevka) is the preferred monospace font.
+
+### Images
+
+PNG and JPEG are thirty year old formats.
+
+
+
 <!-- ## my interests -->
 
 <!-- ### history -->

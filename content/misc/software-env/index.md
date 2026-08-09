@@ -19,13 +19,6 @@ and resources.
 
 Here's a list of the software I use daily and some notes to go along with them: 
 
- {{< image
-    src="qutebrowser_screenshot.png"
-    caption="This page in Qutebrowser"
-    alt="Screenshot of this page rendered in Qutebrowser"
-    width="256"
-    class="img-right-justified"
->}}
 
 
 - [Arch Linux](https://archlinux.org/), [Cachy OS](https://cachyos.org/) is a phenomenal

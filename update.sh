@@ -4,4 +4,4 @@
 
 hugo
 
-rsync -vrP --delete-after ./public/ root@cattette.net:/var/www/cattette
+rsync -vruP --delete-after ./public/ root@cattette.net:/var/www/cattette

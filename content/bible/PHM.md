@@ -1,0 +1,51 @@
+# PHM
+1Paul, a prisoner of Christ Jesus, and Timothy, a brother: to Philemon, our beloved and fellow labourer; 
+ 
+2And to Appia, our dearest sister, and to Archippus, our fellow soldier, and to the church which is in thy house: 
+ 
+3Grace to you and peace from God our Father, and from the Lord Jesus Christ. 
+ 
+4I give thanks to my God, always making a remembrance of thee in my prayers. 
+ 
+5Hearing of thy charity and faith, which thou hast in the Lord Jesus, and towards all the saints: 
+ 
+6That the communication of thy faith may be made evident in the acknowledgment of every good work, that is in you in Christ Jesus. 
+ 
+7For I have had great joy and consolation in thy charity, because the bowels of the saints have been refreshed by thee, brother. 
+ 
+8Wherefore though I have much confidence in Christ Jesus, to command thee that which is to the purpose: 
+ 
+9For charity sake I rather beseech, whereas thou art such a one, as Paul an old man, and now a prisoner also of Jesus Christ. 
+ 
+10I beseech thee for my son, whom I have begotten in my bands, Onesimus, 
+ 
+11Who hath been heretofore unprofitable to thee, but now is profitable both to me and thee, 
+ 
+12Whom I have sent back to thee. And do thou receive him as my own bowels. 
+ 
+13Whom I would have retained with me, that in thy stead he might have ministered to me in the bands of the gospel: 
+ 
+14But without thy counsel I would do nothing: that thy good deed might not be as it were of necessity, but voluntary. 
+ 
+15For perhaps he therefore departed for a season from thee, that thou mightest receive him again for ever: 
+ 
+16Not now as a servant, but instead of a servant, a most dear brother, especially to me: but how much more to thee both in the flesh and in the Lord? 
+ 
+17If therefore thou count me a partner, receive him as myself. 
+ 
+18And if he hath wronged thee in any thing, or is in thy debt, put that to my account. 
+ 
+19I Paul have written it with my own hand: I will repay it: not to say to thee, that thou owest me thy own self also. 
+ 
+20Yea, brother. May I enjoy thee in the Lord. Refresh my bowels in the Lord. 
+ 
+21Trusting in thy obedience, I have written to thee: knowing that thou wilt also do more than I say. 
+ 
+22But withal prepare me also a lodging. For I hope that through your prayers I shall be given unto you. 
+ 
+23There salute thee Epaphras, my fellow prisoner in Christ Jesus; 
+ 
+24Mark, Aristarchus, Demas, and Luke my fellow labourers. 
+ 
+25The grace of our Lord Jesus Christ be with your spirit. Amen. 
+ 

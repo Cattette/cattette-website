@@ -1,0 +1,23 @@
+{{ define "main" }}
+  <article>
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+    default bible list
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Book</th>
+        </tr>
+      </thead>
+      <tbody>
+      {{ range .Pages }}
+        <tr>
+          <th>{{ .Params.weight }}</th>
+          <td><a href="{{.Permalink}}">{{ .Title }}</a></td>
+        </tr>
+      {{end}}
+      </tbody>
+    </table>
+  </article>
+{{ end }}
